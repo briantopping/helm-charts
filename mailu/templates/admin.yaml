@@ -89,8 +89,8 @@ spec:
           - name: DB_NAME
             value: {{ required "database.mysql.database" .Values.database.mysql.database }}
           - name: DB_HOST
-            {{- if .Values.database.host }}
-            value: {{ .Values.database.host }}
+            {{- if .Values.database.mysql.host }}
+            value: {{ .Values.database.mysql.host }}
             {{- end }}
             value: {{ include "mailu.fullname" . }}-mysql
           {{- else }}
