@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.2.1](https://github.com/briantopping/helm-charts/compare/mailu-v2.2.2...mailu-2.2.1) (2025-08-22)
+
+
+### Features
+
+* ✨ move chart to subdir charts ([#389](https://github.com/briantopping/helm-charts/issues/389)) ([f76c60a](https://github.com/briantopping/helm-charts/commit/f76c60a540a5693fbadd51e3ce21d47e83106abb))
+* bump mailu version to 2024.06.41 ([#431](https://github.com/briantopping/helm-charts/issues/431)) ([ad72d37](https://github.com/briantopping/helm-charts/commit/ad72d3779f2601cc1c52b02b04130fbe3b6cc78a))
+
+
+### Bug Fixes
+
+* fix proxy protocol check ([#414](https://github.com/briantopping/helm-charts/issues/414)) ([5304600](https://github.com/briantopping/helm-charts/commit/5304600aac1d55b4c2ac19123d7793909e7d84e0))
+* remove env vars from clamav, oletools and tika pods ([#428](https://github.com/briantopping/helm-charts/issues/428)) ([ea26d85](https://github.com/briantopping/helm-charts/commit/ea26d85d400f223dddd63a6e322f4e27984b07de))
+* update tika (CVE-2025-54988) ([#430](https://github.com/briantopping/helm-charts/issues/430)) ([270a2d0](https://github.com/briantopping/helm-charts/commit/270a2d09c477a06fcdb7e1760f3eb6913e889fc6))
+
+
+### Miscellaneous Chores
+
+* trigger release ([41e7f53](https://github.com/briantopping/helm-charts/commit/41e7f53869be97ebf1f99785f3728965d5bee4d8))
+
 ## [2.2.2](https://github.com/Mailu/helm-charts/compare/mailu-2.2.1...mailu-2.2.2) (2025-05-25)
 
 
